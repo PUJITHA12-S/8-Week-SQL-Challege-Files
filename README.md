@@ -45,6 +45,7 @@ Danny’s Diner has valuable customer data that can be leveraged for personalizi
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 🍕 2nd week SQL Challenge - Pizza Runner
 
+![image alt](https://github.com/PUJITHA12-S/8-Week-SQL-Challege-Files/blob/40e1737c242501b2d214fdc9fe91b64266dde56d/PizzaRunner.png)
 ### 📖 Introduction
 Danny has expanded his business ventures with a new delivery-based startup called Pizza Runner, blending the convenience of on-demand food with a classic pizza menu. The company is growing but needs data-driven insights to improve operations and customer satisfaction.
 
