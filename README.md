@@ -1,41 +1,42 @@
 # 8-Week-SQL-Challege-Files
-# 1st Week Challenge
-# Introduction
-Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
-Danny’s Diner is in need of your assistance to help the restaurant stay afloat - the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
-# Problem Statement
-Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
-He plans on using these insights to help him decide whether he should expand the existing customer loyalty program - additionally he needs help to generate some basic datasets so his team can easily inspect the data without needing to use SQL.Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
-# Danny has shared with you 3 key datasets for this case study:
-- sales
-- menu
-- members
+# 🍱 1st Week SQL Challenge – Danny's Diner
+### 📖 Introduction
+  
+Danny loves Japanese food and opened a small restaurant, Danny’s Diner, in early 2021 selling sushi, curry, and ramen. As the business grows, Danny wants to understand his customer behavior better to improve service and evaluate expanding his loyalty program.
 
-# Example Datasets
-All datasets exist within the dannys_diner database schema - be sure to include this reference within your SQL scripts as you start exploring the data and answering the case study questions.
+### 🧩 Problem Statement
+Danny is looking for insights from his limited customer data. He wants to know how frequently customers visit, how much they spend, and which menu items are their favorites. These insights will help Danny deliver personalized experiences and make smarter business decisions.
 
-- Table 1: sales
-The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
-- Table 2: menu
-The menu table maps the product_id to the actual product_name and price of each menu item.
-- Table 3: members
-The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
+### 🗃️ Datasets
+All tables are part of the dannys_diner schema:
+* sales: Tracks customer purchases by customer_id, order_date, and product_id.
+* menu: Maps each product_id to its name and price.
+* members: Captures when each customer_id joined the loyalty program.
 
-# Case Study Questions
-Each of the following case study questions can be answered using a single SQL statement:
+### 🧠 Case Study Questions
+This analysis answers the following SQL-based business questions:
 
-- What is the total amount each customer spent at the restaurant?
-- How many days has each customer visited the restaurant?
-- What was the first item from the menu purchased by each customer?
-- What is the most purchased item on the menu and how many times was it purchased by all customers?
-- Which item was the most popular for each customer?
-- Which item was purchased first by the customer after they became a member?
-- Which item was purchased just before the customer became a member?
-- What is the total items and amount spent for each member before they became a member?
-- If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-- In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+1. Total amount spent by each customer.
+2. Number of days each customer visited.
+3. First menu item purchased by each customer.
+4. Most purchased item and its frequency.
+5. Most popular item per customer.
+6. First item purchased after becoming a member.
+7. Last item purchased before becoming a member.
+8. Total items and amount spent before joining.
+9. Points earned (10x per $1, with 2x multiplier for sushi).
+10. Points earned in first week of membership (2x for all items).
 
-# Bonus Questions 
-- using the Above dataset to create the how many customers are take membership card if customer take membership display 'Y' in member column or display 'N'
-- Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
+# 📊 Key Insights
+1. Customer A spent the most and also purchased the widest variety of items.
+2. Sushi was the most popular menu item across all customers.
+3. Customers make frequent purchases shortly after joining the loyalty program.
+4. Loyalty members earn significantly more points, especially within the first week.
 
+# 💡 Recommendations
+1. Promote sushi with targeted offers since it’s already high-performing and has a points multiplier.
+2. Encourage new memberships by highlighting the 2x points benefit during the first week.
+3. Consider analyzing inactive members for re-engagement opportunities.
+
+# ✅ Conclusion
+Danny’s Diner has valuable customer data that can be leveraged for personalizing service, optimizing loyalty rewards, and enhancing menu strategies. With structured SQL insights, Danny can make data-driven decisions to sustain and grow his business.
