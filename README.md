@@ -27,16 +27,16 @@ This analysis answers the following SQL-based business questions:
 9. Points earned (10x per $1, with 2x multiplier for sushi).
 10. Points earned in first week of membership (2x for all items).
 
-# 📊 Key Insights
+### 📊 Key Insights
 1. Customer A spent the most and also purchased the widest variety of items.
 2. Sushi was the most popular menu item across all customers.
 3. Customers make frequent purchases shortly after joining the loyalty program.
 4. Loyalty members earn significantly more points, especially within the first week.
 
-# 💡 Recommendations
+### 💡 Recommendations
 1. Promote sushi with targeted offers since it’s already high-performing and has a points multiplier.
 2. Encourage new memberships by highlighting the 2x points benefit during the first week.
 3. Consider analyzing inactive members for re-engagement opportunities.
 
-# ✅ Conclusion
+### ✅ Conclusion
 Danny’s Diner has valuable customer data that can be leveraged for personalizing service, optimizing loyalty rewards, and enhancing menu strategies. With structured SQL insights, Danny can make data-driven decisions to sustain and grow his business.
