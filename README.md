@@ -1,5 +1,6 @@
 # 8-Week-SQL-Challege-Files
 # 🍱 1st Week SQL Challenge – Danny's Diner
+![image alt](https://github.com/PUJITHA12-S/8-Week-SQL-Challege-Files/blob/4ea0d24e3927bcef736195ea024a62758f8309d2/Danny's%20Diner.png)
 ### 📖 Introduction
   
 Danny loves Japanese food and opened a small restaurant, Danny’s Diner, in early 2021 selling sushi, curry, and ramen. As the business grows, Danny wants to understand his customer behavior better to improve service and evaluate expanding his loyalty program.
