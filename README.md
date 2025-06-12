@@ -1,6 +1,14 @@
 # 8-Week-SQL-Challege-Files
 
-# 🍱 1st Week SQL Challenge – Danny's Diner
+### Table of Contents
+
+- [🍱 1st Week SQL Challenge-Danny's Diner](#1st-week-sql-challenge-danny's-dine)
+- [🍕 2nd Week SQL Challenge - Pizza Runner](#2nd-week-sql-challenge-pizza-runner)
+
+
+
+
+### 🍱 1st Week SQL Challenge–Danny's Diner
 ![image alt](https://github.com/PUJITHA12-S/8-Week-SQL-Challege-Files/blob/4ea0d24e3927bcef736195ea024a62758f8309d2/Danny's%20Diner.png)
 ### 📖 Introduction
   
